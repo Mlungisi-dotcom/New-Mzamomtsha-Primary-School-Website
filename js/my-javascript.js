@@ -51,6 +51,9 @@ function validateForm()
 	} 
 }
 
-function colorMe(color){
-    // change the colour of the nav bar
+
+// change navbar color when clicked 
+
+function func(){
+	document.getElementById("event-id").style.color="red";
 }

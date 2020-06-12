@@ -12,7 +12,7 @@
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
-
+	<script src="./js/my-javascript.js"></script>
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -128,14 +128,12 @@
 		<div id="navbar">
 			<a href="#"><img src="logo1.png" style="width: 40px;height: 40px;"></a>
 			<a href="#history">About Us</a>
-			<a href="#schoolProject">Events</a>
+			<a id="event-id"  onclick="func()" href="#schoolProject" >Events</a>
 			<a href="#footerDiv">Contacts</a>
-			<button onclick="functionName('red')" ><div class="content-wrap">
-				<h2 id="content-title">Registration</h2>
-				<p><a href="index.html" class="btn">Click Here</a></p>
-			</div></button>
-			<div style="width: 100%; height: 10px; background-color: steelblue;z-index: 104;background-attachment: fixed;"></div>
+			<a  href="index.html"   id="content-title">Registration</a>
 		</div>
+
+		
 		
 		<div class="hero-slider owl-carousel">
 			<div class="hs-item set-bg" data-setbg="pics/1.jpg">
