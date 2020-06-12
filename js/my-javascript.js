@@ -49,13 +49,8 @@ function validateForm()
 		what.focus(); 
 		return false; 
 	} 
+}
 
-	return true; 
-		var navbar  = document.querySelector('.#navbar');
-
-		navbar.onclick = function () {
- 		var red = Math.floor(Math.random() * 256);
- 		var blue = Math.floor(Math.random() * 256);
- 		var green = Math.floor(Math.random() * 256);
-
- 		this.style.backgroundColor = "rgb(" + red + "," + green + "," + blue + ")";
+function colorMe(color){
+    // change the colour of the nav bar
+}
