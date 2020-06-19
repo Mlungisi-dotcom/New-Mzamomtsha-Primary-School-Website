@@ -12,7 +12,7 @@
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
 
-	<script src="./js/my-javascript.js"></script>
+	
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/grid.css">
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/pics.css">
 
 
 	<link rel="stylesheet" href="css/tab.css">
@@ -261,139 +262,191 @@
 		<div class="container">
 			<div class="section-title" style="z-index: 98;">
 				<h2><mark>School Projects</mark></h2>
+				
+				
+			<!-- Container for the image gallery -->
+<div class="container">
+
+	<!-- Full-width images with number text -->
+	<div class="mySlides">
+	  <div class="numbertext">1 / 6</div>
+		<img src="./pics/mzamo1.jpg" style="width:50%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">2 / 6</div>
+		<img src="./pics/1.jpg" style="width:50%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">3 / 6</div>
+		<img src="./pics/2.jpg" style="width:50%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">4 / 6</div>
+		<img src="./pics/3.jpg" style="width:50%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">5 / 6</div>
+		<img src="./pics/4.jpg" style="width:50%">
+	</div>
+  
+	<div class="mySlides">
+	  <div class="numbertext">6 / 6</div>
+		<img src="./pics/5.jpg" style="width:50%">
+	</div>
+  
+	<!-- Next and previous buttons -->
+
+  
+	<!-- Image text -->
+	<div class="caption-container">
+	  <p id="caption"></p>
+	</div>
+  
+	<!-- Thumbnail images -->
+	<div class="row">
+	  <div class="column">
+		<img class="demo cursor" src="./pics/mzamo1.jpg" style="width:50%" onclick="currentSlide(1)" alt="Out side">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="./pics/1.jpg" style="width:50%" onclick="currentSlide(2)" alt="front school">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="./pics/2.jpg" style="width:50%" onclick="currentSlide(3)" alt="Front 2">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="./pics/3.jpg" style="width:50%" onclick="currentSlide(4)" alt="Computer Lab 1">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="./pics/4.jpg" style="width:50%" onclick="currentSlide(5)" alt="Computer Lab 2">
+	  </div>
+	  <div class="column">
+		<img class="demo cursor" src="./pics/5.jpg" style="width:50%" onclick="currentSlide(6)" alt="Class room">
+	  </div>
+	</div>
+</di>
+<!--				  
+</div>
+	<div class="product-slider owl-carousel">
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/1.jpg" alt="">
+					<div class="pi-links">
+					</div>
 			</div>
-			<div class="product-slider owl-carousel">
-				<div class="product-item">
-					<div class="pi-pic">
-						<img src="./pics/1.jpg" alt="">
-						<div class="pi-links">
-
-						</div>
-					</div>
-					<div class="pi-text">
-						<h6>SCHOOL ENTRANCE</h6>
-					</div>
+				<div class="pi-text">
+					<h6>SCHOOL ENTRANCE</h6>
 				</div>
-				<div class="product-item">
-					<div class="pi-pic">
-						<div class="tag-new">New</div>
-						<img src="./pics/2.jpg" alt="">
-						<div class="pi-links">
-
-						</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+				<div class="tag-new">New</div>
+					<img src="./pics/2.jpg" alt="">
+					<div class="pi-links">
 					</div>
-					<div class="pi-text">
-						<h6>FRONT OF SCHOOL</h6>
-					</div>
-				</div>
-				<div class="product-item">
-					<div class="pi-pic">
-						<img src="./pics/16.jpg" alt="">
-						<div class="pi-links">
-
-						</div>
-					</div>
-					<div class="pi-text">
-						<h6>GARDEN PROJECT</h6>
-					</div>
-				</div>
-				<div class="product-item">
-						<div class="pi-pic">
-							<img src="./pics/17.jpg" alt="">
-							<div class="pi-links">
-
-							</div>
-						</div>
-						<div class="pi-text">
-							<h6> GARDEN </h6>
-						</div>
-					</div>
-				<div class="product-item">
-						<div class="pi-pic">
-							<img src="./pics/10.jpg" alt="">
-							<div class="pi-links">
-
-							</div>
-						</div>
-						<div class="pi-text">
-							<h6> LOVE </h6>
-						</div>
-					</div>
-
-										<div class="product-item">
-												<div class="pi-pic">
-										<img src="./pics/6.jpg" alt="">
-										<div class="pi-links">
-			
-											</div>
-										</div>
-											<div class="pi-text">
-													<h6> CLASS ROOM1 </h6>
-												</div>
-											</div>
-			
-											<div class="product-item">
-													<div class="pi-pic">
-										<img src="./pics/8.jpg" alt="">
-										<div class="pi-links">
-			
-											</div>
-										</div>
-											<div class="pi-text">
-													<h6> CLASS ROOM FRONT </h6>
-												</div>
-											</div>
-			
-											<div class="product-item">
-													<div class="pi-pic">
-										<img src="./pics/9.jpg" alt="">
-										<div class="pi-links">
-			
-											</div>
-										</div>
-											<div class="pi-text">
-													<h6> SCHOOL HALL </h6>
-												</div>
-											</div>
-			
-											<div class="product-item">
-													<div class="pi-pic">
-										<img src="./pics/10.jpg" alt="">
-										<div class="pi-links">
-			
-											</div>
-										</div>
-											<div class="pi-text">
-													<h6> SCHOOL ACTIVITY </h6>
-												</div>
-											</div>
-			
-											<div class="product-item">
-													<div class="pi-pic">
-										<img src="./pics/11.jpg" alt="">
-										<div class="pi-links">
-			
-											</div>
-										</div>
-											<div class="pi-text">
-													<h6> SCHOOL ACTIVTY 2 </h6>
-												</div>
-											</div>
-			
-											<div class="product-item">
-													<div class="pi-pic">
-										<img src="./pics/12.jpg" alt="">
-										<div class="pi-links">
-			
-											</div>
-										</div>
-											<div class="pi-text">
-													<h6> SCHOOL ACTIVITY 3 </h6>
-												</div>
-											</div>
+			</div>
+			<div class="pi-text">
+				<h6>FRONT OF SCHOOL</h6>
 			</div>
 		</div>
-	
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/16.jpg" alt="">
+					<div class="pi-links">
+					</div>
+			</div>
+			<div class="pi-text">
+				<h6>GARDEN PROJECT</h6>
+			</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/17.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> GARDEN </h6>
+			</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+			 	<img src="./pics/10.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> LOVE </h6>
+			</div>
+		</div>
+
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/6.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> CLASS ROOM1 </h6>
+			</div>
+		</div>	
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/8.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> CLASS ROOM FRONT </h6>
+			</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/9.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> SCHOOL HALL </h6>
+			</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/10.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> SCHOOL ACTIVITY </h6>
+			</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/11.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> SCHOOL ACTIVTY 2 </h6>
+			</div>
+		</div>
+		<div class="product-item">
+			<div class="pi-pic">
+				<img src="./pics/12.jpg" alt="">
+				<div class="pi-links">
+				</div>
+			</div>
+			<div class="pi-text">
+				<h6> SCHOOL ACTIVITY 3 </h6>
+			</div>
+		</div>
+	</div>
+</div> 
+ -->
+
 	<!-- latest news section end -->
 
 	<!-- Footer section -->
@@ -451,7 +504,8 @@
 		</script>
 	<!--====== Javascripts & Jquery ======-->
 
-
+	<script src="./js/my-javascript.js"></script>
+	<script src="./js/pics.js"></script>
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.slicknav.min.js"></script>
